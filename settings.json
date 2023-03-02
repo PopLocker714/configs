@@ -1,0 +1,70 @@
+{
+  //! ---------- Setting gui interface ---------- 
+  "editor.fontSize": 16,
+  "window.zoomLevel": 2,
+  "editor.fontFamily": "'DejaVuSansMono NF', Consolas, 'Courier New', monospace",
+  "workbench.colorTheme": "Ayu Mirage",
+  // hide unusful 
+  // "window.title": "",
+  "workbench.activityBar.visible": false, 
+  "workbench.layoutControl.enabled": false, 
+  "editor.overviewRulerBorder": false,
+  // Скрываем "хлебные крошки"
+  "breadcrumbs.enabled": false,
+  // Cкрываем статус бар
+  "workbench.statusBar.visible": false,
+  // Избавляемся от подсветки строки, на которой установлен курсор
+  "editor.renderLineHighlight": "none",
+  // Вкладки
+  "workbench.editor.showTabs": false,
+  // Полосы обернутого кода
+  "editor.guides.indentation": false,
+  // плавный скролл
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  // Hide minimap
+  "editor.minimap.enabled": false,
+  // Padding 
+  "editor.detectIndentation": false,
+  "editor.glyphMargin": false,
+  // hints
+  "editor.parameterHints.enabled": true,
+  // cursor hello world to now 
+  "editor.cursorBlinking": "phase",
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 1,
+  "editor.cursorSmoothCaretAnimation": "on",
+  // terminal
+  "terminal.integrated.fontSize": 18,
+  // Определяет, должны ли в редакторе отображаться пробелы.
+  "editor.renderWhitespace": "selection",
+  //! ---------- Main ----------
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDelete": false,
+  "editor.tabSize": 2,
+  "security.workspace.trust.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.accessibilitySupport": "off",
+  "editor.mouseWheelZoom": true,
+
+  //! ---------- Javascript ----------
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // ---------- Neovim ----------
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\nvim-win64\\bin\\nvim.exe",
+  "editor.scrollBeyondLastLine": false, // recommended by neovim
+    // "editor.lineNumbers": "relative",
+    
+  // ---------- ... ----------
+
+  "git.openRepositoryInParentFolders": "never",
+
+  "customizeUI.stylesheet": {
+    ".title-actions": "display: none !important; vidible: 'hidden';" 
+  },
+
+
+}

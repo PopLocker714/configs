@@ -1,0 +1,31 @@
+// Place your key bindings in this file to override the defaults
+[
+  // terminal
+  {
+    "key": "ctrl+oem_102",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  // Nvim
+  {
+    "command": "-vscode-neovim.send",
+    "key": "ctrl+v"
+  },
+  {
+    "command": "-vscode-neovim.send",
+    "key": "ctrl+z"
+  },
+  {
+    "command": "vscode-neovim.compositeEscape1",
+    "key": "j",
+    "when": "neovim.mode == insert && editorTextFocus",
+    "args": "j"
+  }, 
+  {
+    "command": "vscode-neovim.compositeEscape2",
+    "key": "k",
+    "when": "neovim.mode == insert && editorTextFocus",
+    "args": "k"
+  }
+
+]
