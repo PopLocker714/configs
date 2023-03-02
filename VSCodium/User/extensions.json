@@ -1,0 +1,122 @@
+[
+  {
+    "identifier": {
+      "id": "asvetliakov.vscode-neovim",
+      "uuid": "caf8995c-5426-4bf7-9d01-f7968ebd49bb"
+    },
+    "version": "0.0.97",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/jojo/.vscode-oss/extensions/asvetliakov.vscode-neovim-0.0.97-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "asvetliakov.vscode-neovim-0.0.97-universal",
+    "metadata": {
+      "id": "caf8995c-5426-4bf7-9d01-f7968ebd49bb",
+      "publisherId": "ce6190db-6762-4c9c-99c7-1717b9504159",
+      "publisherDisplayName": "asvetliakov",
+      "targetPlatform": "universal",
+      "isApplicationScoped": false,
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1677689566241,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "dbaeumer.vscode-eslint",
+      "uuid": "583b2b34-2c1e-4634-8c0b-0b82e283ea3a"
+    },
+    "version": "2.4.0",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/jojo/.vscode-oss/extensions/dbaeumer.vscode-eslint-2.4.0-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "dbaeumer.vscode-eslint-2.4.0-universal",
+    "metadata": {
+      "id": "583b2b34-2c1e-4634-8c0b-0b82e283ea3a",
+      "publisherId": "29859a75-d81b-4f0e-8578-2c80ecee6f99",
+      "publisherDisplayName": "dbaeumer",
+      "targetPlatform": "universal",
+      "isApplicationScoped": false,
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1677733361184,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "editorconfig.editorconfig",
+      "uuid": "f60a60a6-95ba-42d4-b41c-3d24c1b89588"
+    },
+    "version": "0.16.6",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/jojo/.vscode-oss/extensions/editorconfig.editorconfig-0.16.6-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "editorconfig.editorconfig-0.16.6-universal",
+    "metadata": {
+      "id": "f60a60a6-95ba-42d4-b41c-3d24c1b89588",
+      "publisherId": "1ed869e4-8588-4af4-a51e-9c1c86b034b9",
+      "publisherDisplayName": "EditorConfig",
+      "targetPlatform": "universal",
+      "isApplicationScoped": false,
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1677733357125,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "teabyii.ayu",
+      "uuid": "5178733e-4b02-4829-95c5-1ce970847c23"
+    },
+    "version": "1.0.3",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/jojo/.vscode-oss/extensions/teabyii.ayu-1.0.3-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "teabyii.ayu-1.0.3-universal",
+    "metadata": {
+      "id": "5178733e-4b02-4829-95c5-1ce970847c23",
+      "publisherId": "8a0aaf7f-34ab-48b1-9384-c15c80413d57",
+      "publisherDisplayName": "teabyii",
+      "targetPlatform": "universal",
+      "isApplicationScoped": false,
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1677734105172,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "kamikillerto.vscode-colorize",
+      "uuid": "445ba381-f232-4150-9056-d790bd76d698"
+    },
+    "version": "0.11.1",
+    "location": {
+      "$mid": 1,
+      "path": "/c:/Users/jojo/.vscode-oss/extensions/kamikillerto.vscode-colorize-0.11.1-universal",
+      "scheme": "file"
+    },
+    "relativeLocation": "kamikillerto.vscode-colorize-0.11.1-universal",
+    "metadata": {
+      "id": "445ba381-f232-4150-9056-d790bd76d698",
+      "publisherId": "d4ae7698-aa41-4455-92f8-cbb52b3d5004",
+      "publisherDisplayName": "kamikillerto",
+      "targetPlatform": "universal",
+      "isApplicationScoped": false,
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1677734719002,
+      "preRelease": false
+    }
+  }
+]
