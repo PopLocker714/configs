@@ -1,0 +1,149 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+ 
+  
+  
+  // ---- Teminal
+  {
+    "key": "ctrl+oem_102",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+
+
+
+  // ---- Nvim
+  {
+    "command": "-vscode-neovim.send",
+    "key": "ctrl+v"
+  },
+  {
+    "command": "-vscode-neovim.send",
+    "key": "ctrl+z"
+  },
+  {
+    "command": "vscode-neovim.compositeEscape1",
+    "key": "j",
+    "when": "neovim.mode == insert && editorTextFocus",
+    "args": "j"
+  }, 
+  {
+    "command": "vscode-neovim.compositeEscape2",
+    "key": "k",
+    "when": "neovim.mode == insert && editorTextFocus",
+    "args": "k"
+  },
+
+  // ---- Vim
+  // {
+  //   "key": "ctrl+alt+i",
+  //   "command": "toggleVim"
+  // },
+
+// -----
+  // explorer
+  // {
+  //   "key": "ctrl+n",
+  //   "command": "explorer.newFile",
+  //   "when": "explorerViewletFocus"
+  // },
+  // {
+  //   "key": "ctrl+shift+n",
+  //   "command": "explorer.newFolder",
+  //   "when": "explorerViewletFocus"
+  // },
+
+  // ---- Edit native text
+
+  // {
+  //   "key": "shift+j",
+  //   "command": "selectNextSuggestion",
+  //   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  // },
+  // {
+  //   "key": "down",
+  //   "command": "-selectNextSuggestion",
+  //   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  // },
+  // {
+  //   "key": "shift+k",
+  //   "command": "selectPrevSuggestion",
+  //   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  // },
+  // {
+  //   "key": "up",
+  //   "command": "-selectPrevSuggestion",
+  //   "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  // },
+  // {
+  //   "key": "shift+o",
+  //   "command": "acceptSelectedSuggestion",
+  //   "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+  // },
+  // {
+  //   "key": "tab",
+  //   "command": "-acceptSelectedSuggestion",
+  //   "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
+  // },
+
+
+  // {
+  //   "key": "alt+k",
+  //   "command": "-keybindings.editor.recordSearchKeys",
+  //   "when": "inKeybindings && inKeybindingsSearch"
+  // },
+  // {
+  //   "key": "alt+k",
+  //   "command": "editor.action.moveLinesUpAction",
+  //   "when": "editorTextFocus && !editorReadonly"
+  // },
+  // {
+  //   "key": "alt+up",
+  //   "command": "-editor.action.moveLinesUpAction",
+  //   "when": "editorTextFocus && !editorReadonly"
+  // },
+  // {
+  //   "key": "alt+j",
+  //   "command": "editor.action.moveLinesDownAction",
+  //   "when": "editorTextFocus && !editorReadonly"
+  // },
+  // {
+  //   "key": "alt+down",
+  //   "command": "-editor.action.moveLinesDownAction",
+  //   "when": "editorTextFocus && !editorReadonly"
+  // },
+
+
+  // {
+  //   "key": "shift+alt+j",
+  //   "command": "editor.action.copyLinesDownAction",
+  //   "when": "editorTextFocus && !editorReadonly"
+  // },
+  // {
+  //   "key": "shift+alt+down",
+  //   "command": "-editor.action.copyLinesDownAction",
+  //   "when": "editorTextFocus && !editorReadonly"
+  // },
+  // {
+  //   "key": "shift+alt+k",
+  //   "command": "editor.action.copyLinesUpAction",
+  //   "when": "editorTextFocus && !editorReadonly"
+  // },
+  // {
+  //   "key": "shift+alt+up",
+  //   "command": "-editor.action.copyLinesUpAction",
+  //   "when": "editorTextFocus && !editorReadonly"
+  // },
+
+  // format document
+  {
+    "key": "ctrl+alt+i",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  }
+]

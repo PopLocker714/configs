@@ -57,8 +57,9 @@
   },
   "vscode-neovim.neovimExecutablePaths.win32": "C:\\tools\\neovim\\nvim-win64\\bin\\nvim.exe",
   "editor.scrollBeyondLastLine": false, // recommended by neovim
-  // "editor.lineNumbers": "relative",
+    // "editor.lineNumbers": "relative",
     
+
   // ---------- Vim ----------
   // "vim.easymotion": true,
   // "vim.incsearch": true,
